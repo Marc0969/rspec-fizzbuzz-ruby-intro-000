@@ -1,13 +1,12 @@
 def fizzbuzz(int)
-gets.chomp = int .to_i
 if int % 3 == 0
-  fizzbuzz(3) = "Fizz"
+  "Fizz"
 elsif if int % 5 == 1
-  fizzbuzz(5) = "Buzz"
+  "Buzz"
 elsif int % 15 == 1
-  fizzbuzz(15) = "FizzBuzz"
+  "FizzBuzz"
 else
-  fizzbuzz(nil)
+  nil
 end
 end
 end
