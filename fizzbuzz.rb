@@ -1,12 +1,8 @@
-def fizzbuzz(int)
-if int % 3 == 0
+def fizzbuzz(number)
+if number % 3 == 0
   "Fizz"
-elsif if int % 5 == 1
+elsif if number % 5 == 0
   "Buzz"
-elsif int % 15 == 1
+elsif number % 15 == 0 && number % 3 ==0
   "FizzBuzz"
 else
-  nil
-end
-end
-end
